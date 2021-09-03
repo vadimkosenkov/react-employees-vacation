@@ -1,0 +1,25 @@
+.tooltip {
+  display: none;
+  position: absolute;
+  width: 340px;
+  height: 170px;
+  top: 321px;
+  left: 217px;
+  border-radius: 6px;
+  padding: 21px 30px 29px 30px;
+  font-size: 13px;
+  line-height: 20px;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(32, 75, 146, 0.15);
+  div {
+    font-weight: 400;
+  }
+  strong {
+    margin: 10px 0;
+    display: block;
+  }
+}
+
+.help:hover + .tooltip {
+  display: block;
+}

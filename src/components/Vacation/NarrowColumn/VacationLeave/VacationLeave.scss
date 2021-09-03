@@ -1,0 +1,215 @@
+@mixin border {
+  border: 1px solid #dae1e8;
+  border-radius: 4px;
+  outline: none;
+}
+
+.new-request-wrap {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(32, 75, 146, 0.15);
+  background: #ffffff;
+
+  img {
+    width: 470px;
+    height: 170px;
+  }
+}
+
+.new-request-content {
+  padding: 28px 75px 30px 29px;
+
+  .title {
+    font-size: 18px;
+    margin-bottom: 12px;
+    padding-left: 2px;
+  }
+
+  form {
+    select {
+      @include border;
+      width: 360px;
+      height: 36px;
+      font-weight: 400;
+      margin-bottom: 14px;
+      padding: 0 5px;
+      option {
+        font-weight: 400;
+      }
+    }
+  }
+}
+.all-request-sections {
+  display: flex;
+}
+
+.new-request-section {
+  width: 140px;
+  margin-right: 10px;
+
+  .subtitle {
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 5px;
+
+    .addition {
+      color: #afb7bf;
+      font-weight: 400;
+      margin-left: 4px;
+    }
+  }
+
+  .date {
+    @include border;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 14px 11px 10px;
+    height: 36px;
+
+    input {
+      width: 100%;
+      height: 100%;
+      border: none;
+      outline: none;
+      font-weight: 400;
+
+      &[type="date"] {
+        position: relative;
+      }
+
+      &[type="date"]:after {
+        display: block;
+        content: " ";
+        background-image: url("./../../../../../src/calendar.svg");
+        background-size: 14px 14px;
+        height: 14px;
+        width: 14px;
+      }
+
+      &[type="date"]::-webkit-calendar-picker-indicator {
+        position: absolute;
+        top: 0;
+        left: -20%;
+        right: 0%;
+        bottom: 0;
+        width: auto;
+        height: auto;
+        color: transparent;
+        background: transparent;
+      }
+    }
+  }
+}
+
+.new-section-days {
+  width: 60px;
+
+  .subtitle {
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+
+    img {
+      width: 14px;
+      height: 14px;
+      margin-left: 4px;
+      cursor: pointer;
+    }
+  }
+  input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-weight: 400;
+
+    @include border;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 14px 11px 10px;
+    height: 36px;
+  }
+}
+
+.new-section-comment {
+  margin-top: 21px;
+  .subtitle {
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .comment {
+    @include border;
+    width: 360px;
+    height: 80px;
+    resize: none;
+    margin-bottom: 17px;
+    padding: 10px;
+    font-weight: 400;
+  }
+}
+
+.new-request-submit {
+  width: 120px;
+  height: 36px;
+  background-color: #5495ff;
+  color: #ffffff;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 80px;
+  border: 1px solid #cccccc;
+  &[disabled] {
+    cursor: default;
+    opacity: 0.4;
+  }
+}
+
+.submitAndFaq {
+  display: flex;
+  align-items: center;
+
+  .faq {
+    display: flex;
+    align-items: center;
+
+    .title {
+      color: #333333;
+      margin: 0 5px 0 0;
+      font-weight: 400;
+      font-size: 13px;
+    }
+
+    .link {
+      font-weight: 400;
+      color: #5495ff;
+      cursor: pointer;
+      font-size: 13px;
+    }
+  }
+}
+
+.SickLeaveAddition {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.error {
+  font-size: 13px;
+  color: red;
+  margin-top: 4px;
+}
+.date.error-input {
+  border-color: red;
+}

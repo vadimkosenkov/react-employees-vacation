@@ -1,0 +1,43 @@
+.vacation-days-wrap {
+  box-shadow: 0px 1px 3px rgba(32, 75, 146, 0.15);
+  margin-bottom: 11px;
+  background: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+
+  .vacation-days {
+    height: 99px;
+    padding: 34px 32px 15px 30px;
+
+    .vacation-days-title {
+      font-size: 18px;
+      margin-bottom: 13px;
+    }
+    .available {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      div {
+        font-weight: 400;
+      }
+    }
+  }
+
+  .vacation-details {
+    height: 26px;
+    background: #f6f8fd;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    img {
+      margin-right: 10px;
+    }
+    span {
+      font-size: 10px;
+      color: #afb7bf;
+    }
+  }
+}
