@@ -1,0 +1,46 @@
+.user-bar {
+  display: flex;
+  align-content: center;
+}
+
+.user-bar-plane,
+.user-bar-turn-off {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #1753b3;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.user-bar-plane:hover,
+.user-bar-turn-off:hover {
+  transform: scale(1.04);
+}
+
+.user-bar-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1753b3;
+  padding: 0 18px 0 2px;
+  height: 32px;
+  border-radius: 50px;
+  margin: 0 34px 0 16px;
+  cursor: pointer;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 10px;
+
+  img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    margin-right: 12px;
+  }
+}

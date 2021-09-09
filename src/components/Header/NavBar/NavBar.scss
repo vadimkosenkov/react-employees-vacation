@@ -1,0 +1,40 @@
+.nav-wrap {
+  margin-right: 265px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 13px;
+      line-height: 20px;
+      color: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
+
+.active-nav {
+  color: #ffffff !important;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 106px;
+    height: 4px;
+    margin-top: 20px;
+    background: #5495ff;
+    border-radius: 3px;
+  }
+}

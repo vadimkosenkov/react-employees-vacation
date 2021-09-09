@@ -1,0 +1,51 @@
+@mixin confirm-data-content {
+  font-size: 13px;
+  line-height: 18px;
+}
+.confirm-wrap {
+  width: 500px;
+}
+.confirm-main {
+  padding: 38px 40px 27px 27px;
+
+  .confirm-data-black {
+    font-weight: normal;
+    @include confirm-data-content;
+  }
+
+  .confirm-data-red {
+    color: #f80000;
+    @include confirm-data-content;
+  }
+}
+
+.modal-item {
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+  .date {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 3px;
+  }
+}
+
+.confirmButtons {
+  & :first-child {
+    color: #5495ff;
+    background-color: inherit;
+  }
+  & :nth-child(2) {
+    background-color: #5495ff;
+    color: #ffffff;
+  }
+}
+.two-weeks-mb {
+  margin-bottom: 24px;
+}
