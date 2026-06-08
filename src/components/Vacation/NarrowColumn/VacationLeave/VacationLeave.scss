@@ -65,7 +65,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 11px 14px 11px 10px;
+    padding: 0 11px;
     height: 36px;
 
     input {
@@ -86,13 +86,17 @@
         background-size: 14px 14px;
         height: 14px;
         width: 14px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0, -50%);
       }
 
       &[type="date"]::-webkit-calendar-picker-indicator {
         position: absolute;
         top: 0;
         left: -20%;
-        right: 0%;
+        right: 0;
         bottom: 0;
         width: auto;
         height: auto;
