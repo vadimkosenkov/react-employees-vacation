@@ -2,7 +2,7 @@
 
 Basic React application designed for managing employee vacation requests and approvals. The system helps HR departments and team leads streamline time-off tracking and avoid scheduling conflicts.
 
-🔗 **[Live Demo]([https://netlify.app](https://react-employees-vacation-753fd5.netlify.app/))** 
+🔗 **[Live Demo](https://react-employees-vacation-753fd5.netlify.app/)** 
 
 ---
 
