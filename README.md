@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# 🗓️ Employee Vacation Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Basic React application designed for managing employee vacation requests and approvals. The system helps HR departments and team leads streamline time-off tracking and avoid scheduling conflicts.
 
-## Available Scripts
+🔗 **[Live Demo]([https://netlify.app](https://react-employees-vacation-753fd5.netlify.app/))** 
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📸 Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![](https://github.com/user-attachments/assets/d0cf0086-9c50-4a0f-a6db-868d28d40192)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Request Management:** Employees can easily submit, edit, or cancel vacation requests.
+- **Approval Workflow:** Supervisors can review, approve, or reject pending requests with real-time status updates.
+- **Conflict Prevention:** Interactive calendar or list view to see overlapping vacation dates within teams.
+- **Responsive UI:** Optimized for desktop, tablet, and mobile screens.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Frontend Core
+- **Framework:** React.js (functional components & hooks)
+- **Styling:** SCSS / Sass (structured modules, variables, and mixins)
+- **Build Tool:** Create React App
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### State & Routing
+- **Routing:** React Router (for navigation between dashboard and request forms)
+- **State Management:** React Context API / Local State
+---
 
-### `npm run eject`
+## ⚙️ Quick Start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Follow these steps to run the project locally.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org) installed (v16 or higher recommended).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 1. Clone the repository
+```bash
+git clone https://github.com
+cd react-employees-vacation
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 2. Install dependencies
+```bash
+npm install
+```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 3. Start the development server
+```bash
+npm start
+```
+The app will open automatically at `http://localhost:3000`.
