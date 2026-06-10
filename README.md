@@ -17,7 +17,6 @@ Basic React application designed for managing employee vacation requests and app
 - **Request Management:** Employees can easily submit, edit, or cancel vacation requests.
 - **Approval Workflow:** Supervisors can review, approve, or reject pending requests with real-time status updates.
 - **Conflict Prevention:** Interactive calendar or list view to see overlapping vacation dates within teams.
-- **Responsive UI:** Optimized for desktop, tablet, and mobile screens.
 
 ---
 
